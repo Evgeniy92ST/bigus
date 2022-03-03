@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Arial Black"/*"PT Sans", sans-serif*/;
+    /*font-weight: bold;*/
+    font-size: 14px;
+
+}
+
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    /*width: 199.59px;
+    height: 40px;*/
+}
+
+.main-header {
+    height: 370px;
+    width: 1000px;
+    position: relative;
+    background: url("header_butterfly.jpg") no-repeat center;
+}
+
+.top-menu {
+    width: 1000px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #333333;
+        /*font-family: 'PT Sans', 'Tacoma', 'Trebuchet MS', 'Verdana', 'Arial', 'Times New Roman', 'Georgia', 'sans-serif';*/
+}
+
+.on-main {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.on-library {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.on-library::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background: url("open_in_new_white_18dp.svg") no-repeat center;
+}
+
+.temp {
+    width: 640px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.temp span {
+    color: #71C1AB;
+}
+
+.bottom-menu {
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background: #3F4C6B;
+    color: white;
+    opacity: 0.7;
+}
+
+.bottom-menu .menu-item {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background: green;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+
+.content-news {
+    width: 1000px;
+    border: 1px solid #000;
+}
+
+.news-block {
+    width: 667px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #000;
+}
+
+.news {
+    width: inherit;
+    border: 1px solid #000;
+}
+
+.news p {
+    float: left;
+}
+
